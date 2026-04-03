@@ -1,0 +1,7 @@
+{
+  "name": "app-osakidetza",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
