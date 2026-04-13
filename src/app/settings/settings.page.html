@@ -1,0 +1,123 @@
+<ion-content>
+
+  <ion-card>
+
+    <ion-card-header>
+      <ion-card-title>
+        Temario General
+      </ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+
+      <!-- SELECT PREGUNTA -->
+
+      <ion-item>
+
+        <ion-label>Pregunta</ion-label>
+
+        <ion-select
+          [(ngModel)]="selectedGeneralQuestion"
+          (ionChange)="onGeneralQuestionChange()">
+
+          <ion-select-option
+            *ngFor="let q of generalKeys"
+            [value]="q">
+
+            {{q}}
+
+          </ion-select-option>
+
+        </ion-select>
+
+      </ion-item>
+
+
+      <!-- RESPUESTA ACTUAL -->
+
+      <ion-item>
+
+        <ion-label>Respuesta</ion-label>
+
+        <!-- SELECT OCULTO -->
+
+      <ion-select
+        #answerSelect
+        interface="popover"
+        [(ngModel)]="selectedGeneralAnswer"
+        (ionChange)="updateGeneral()">
+
+        <ion-select-option value="A">A</ion-select-option>
+        <ion-select-option value="B">B</ion-select-option>
+        <ion-select-option value="C">C</ion-select-option>
+        <ion-select-option value="D">D</ion-select-option>
+
+      </ion-select>
+
+      </ion-item>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+
+    <ion-card-header>
+      <ion-card-title>
+        Temario Especifico
+      </ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+
+      <!-- SELECT PREGUNTA -->
+
+      <ion-item>
+
+        <ion-label>Pregunta</ion-label>
+
+        <ion-select
+          [(ngModel)]="selectedSpecificQuestion"
+          (ionChange)="onSpecificQuestionChange()">
+
+          <ion-select-option
+            *ngFor="let q of specificKeys"
+            [value]="q">
+
+            {{q}}
+
+          </ion-select-option>
+
+        </ion-select>
+
+      </ion-item>
+
+
+      <!-- RESPUESTA ACTUAL -->
+
+      <ion-item>
+
+        <ion-label>Respuesta</ion-label>
+
+        <!-- SELECT OCULTO -->
+
+      <ion-select
+        #answerSelect
+        interface="popover"
+        [(ngModel)]="selectedSpecificAnswer"
+        (ionChange)="updateSpecific()">
+
+        <ion-select-option value="A">A</ion-select-option>
+        <ion-select-option value="B">B</ion-select-option>
+        <ion-select-option value="C">C</ion-select-option>
+        <ion-select-option value="D">D</ion-select-option>
+
+      </ion-select>
+
+      </ion-item>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-button expand="block" color="danger" (click)="clear()">
+    Borrar estadísticas
+  </ion-button>
+
+</ion-content>

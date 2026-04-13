@@ -1,0 +1,180 @@
+ion-content {
+  --padding-bottom: 120px;
+  --padding-top:20px;
+
+}
+/* fondo general */
+
+.quiz{
+   --background:#e4ffc2;
+}
+
+
+/* layout principal */
+
+.quiz-wrapper{
+
+  padding:24px;
+
+  display:flex;
+  flex-direction:column;
+
+  align-items:center;
+
+  min-height:100%;
+
+}
+
+.modeTitle {
+  color:#243d1d;
+}
+/* contador */
+
+.counter{
+
+  align-self:flex-end;
+
+  font-size:20px;
+
+  font-weight:700;
+
+  color:#243d1d;
+
+  margin-bottom:10px;
+
+}
+
+
+/* tarjeta de pregunta */
+
+.question-card{
+
+  width:100%;
+
+  border-radius:18px;
+
+  background:white;
+
+  margin-bottom:20px;
+  
+
+}
+
+
+/* título dentro del card */
+
+ion-card-title{
+
+  text-align:center;
+
+  font-size:20px;
+
+  line-height:1.4;
+
+  color:#243d1d;
+
+  padding:8px;
+}
+
+
+/* lista de respuestas */
+
+ion-list{
+  background:transparent;
+}
+
+
+/* items de respuesta */
+
+ion-item{
+
+  --background:#e6e5c9;
+
+  text-align:center;
+
+  font-size:20px;
+
+  color:#243d1d;
+
+  padding:8px;
+  
+
+}
+
+ion-item ion-label{
+  text-align: left;
+  font-size:20px;
+
+  line-height:1.4;
+
+  color:#243d1d;
+}
+
+/* quitar línea inferior */
+
+ion-item::part(native){
+  border-radius:14px;
+  --border-width:0;
+  --inner-border-width:0;
+}
+
+
+/* efecto al pulsar */
+
+ion-item:active{
+  transform:scale(0.98);
+}
+
+
+/* respuesta correcta */
+
+ion-item.correct{
+
+  --background:#7fd46e;
+
+  color:white;
+
+  font-weight:700;
+
+}
+
+
+/* respuesta incorrecta */
+
+ion-item.wrong{
+
+  --background:#e28763;
+
+  color:white;
+
+  font-weight:700;
+
+}
+
+
+/* botón siguiente */
+
+.next{
+
+  margin-top:20px;
+
+  --background:#243d1d;
+
+  --color:white;
+
+  border-radius:16px;
+
+  height:46px;
+
+  font-size:20px;
+}
+
+.tag{
+  display: inline-block;
+  margin-top: 6px;
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 12px;
+  background: peachpuff;
+  color: #243d1d;
+}

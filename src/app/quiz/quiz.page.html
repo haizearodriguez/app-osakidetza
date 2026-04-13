@@ -1,0 +1,64 @@
+<ion-content class="quiz">
+
+  <div class="quiz-wrapper">
+    <!-- contador -->
+
+    <div class="counter">
+      {{index + 1}} / {{totalQuestions}}
+    </div>
+
+  <div class="tag">
+    {{question?.type}}
+  </div>
+    <!-- tarjeta pregunta -->
+
+    <ion-card class="question-card">
+
+      <ion-card-header>
+
+        <ion-card-title>
+          {{question?.id}} - {{question?.question}}
+        </ion-card-title>
+
+      </ion-card-header>
+
+
+      <ion-card-content>
+
+        <ion-list>
+
+          <ion-item
+            button
+            detail="false"
+            *ngFor="let opt of ['A','B','C','D']"
+            (click)="select(opt)"
+            [ngClass]="getButtonClass(opt)">
+
+            <ion-label>
+
+              <strong>{{opt.toUpperCase()}}</strong>
+              - {{question?.answers[opt]}}
+
+            </ion-label>
+
+          </ion-item>
+
+        </ion-list>
+
+      </ion-card-content>
+
+    </ion-card>
+
+    <ion-button class="next" shape="round" (click)="verRespuesta()">
+      Ver Respuesta
+    </ion-button>
+    <!-- botón siguiente -->
+
+    <!--<ion-button *ngIf="answered" shape="round" class="next" (click)="next()">-->
+    <ion-button shape="round" class="next" (click)="next()">
+      Siguiente
+    </ion-button>
+
+  </div>
+
+</ion-content>
