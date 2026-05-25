@@ -1,94 +1,81 @@
+// ─── Fondo ───────────────────────────────────────────────────────────────────
 .home {
+  --background: #eef7e4;
+}
 
-   --background:#e4ffc2;
-
+// ─── Layout ──────────────────────────────────────────────────────────────────
+.home-wrapper {
+  min-height: 100%;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
+  padding: 40px 24px 120px;
+}
+
+// ─── Header ──────────────────────────────────────────────────────────────────
+.header-card {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.app-badge {
+  display: inline-block;
+  padding: 4px 14px;
+  border-radius: 20px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  background: rgba(36, 61, 29, 0.1);
+  color: #3a6e2a;
+  margin-bottom: 14px;
+}
+
+.title h1 {
+  font-size: 28px;
+  line-height: 1.2;
+  color: #1e3318;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.title p {
+  font-size: 15px;
+  color: #5a7a52;
+  font-weight: 400;
+}
+
+// ─── Temario cards ───────────────────────────────────────────────────────────
+.temario {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+  max-width: 320px;
+}
+
+.temario-card {
+  width: 100%;
+  height: 56px;
+  --border-radius: 16px;
+  --background: white;
+  --color: #1e3318;
+  --box-shadow: 0 2px 10px rgba(36, 61, 29, 0.08);
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+}
+
+.card-inner {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
   justify-content: center;
 
+  .card-icon {
+    font-size: 18px;
+    opacity: 0.7;
+  }
 }
-
-/* contenedor centrado */
-
-.home-wrapper{
-  min-height:100%;
-
-  display:flex;
-  flex-direction:column;
-
-  justify-content:center;
-  align-items:center;
-
-  padding-top: 20px;
-  padding-bottom:120px;
-}
-
-/* HEADER */
-
-.header-card {
-
-  text-align: center;
-  margin-top: 40px;
-  margin-bottom: 60px;
-
-}
-
-.title h1{
-font-size:30px;
-line-height:1.2;
-color: #243d1d;
-font-weight: bold;
-
-}
-
-.title p{
-font-size:16px;
-opacity:0.7;
-color: #243d1d;
-
-}
-
-
-
-
-/* TEMARIO */
-
-.temario{
-    display:flex;
-    flex-direction:column;
-    gap:16px;
-
-    margin-top:20px;
-    align-items:center;
-}
-
-.temario-card{
-    width:260px;
-
-    margin: 15px 0;
-
-  --padding-top: 30px;
-  --padding-bottom: 30px;
-  --padding-start: 20px;
-  --padding-end: 20px;
-}
-
-
-/* BOTONES */
-
-.temario-card{
-
---background:white;
---color:#243d1d;
-
-height:50px;
-
-border-radius:18px;
-
-
-letter-spacing:0.5px;
-
-}
-
-

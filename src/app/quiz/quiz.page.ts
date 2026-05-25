@@ -28,12 +28,6 @@ import { arrowForward, arrowForwardCircle } from 'ionicons/icons';
   styleUrls: ['./quiz.page.scss'],
   standalone: true,
   imports: [
-    IonCardContent,
-    IonLabel,
-    IonList,
-    IonCardTitle,
-    IonCardHeader,
-    IonCard,
     IonContent,
     CommonModule,
     FormsModule,

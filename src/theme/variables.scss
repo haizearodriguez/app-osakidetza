@@ -1,7 +1,17 @@
-// For information on how to create your own theme, please refer to:
-// https://ionicframework.com/docs/theming/
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,400;0,14..32,500;0,14..32,600;0,14..32,700;1,14..32,400&display=swap');
 
 :root {
   --ion-font-family: 'Inter', system-ui, sans-serif;
+  --ion-font-size-base: 18px;
+
+  // Paleta principal
+  --color-brand-dark:   #243d1d;
+  --color-brand-mid:    #3a6e2a;
+  --color-brand-light:  #eef7e4;
+  --color-brand-accent: #8aaa7a;
+
+  // Fondo app
+  --ion-background-color: #eef7e4;
 }
+
+

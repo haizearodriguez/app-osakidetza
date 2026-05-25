@@ -1,43 +1,49 @@
 <ion-content class="home">
   <div class="home-wrapper">
 
-  <!-- HEADER CARD -->
+    <!-- Header -->
+    <div class="header-card">
+      <div class="app-badge">OPE Osakidetza 2026</div>
+      <div class="title">
+        <h1>Auxiliar Administrativo</h1>
+        <p>Prepara tu examen con preguntas reales</p>
+      </div>
+    </div>
 
-  <div class="header-card">
+    <!-- Botones de temario -->
+    <div class="temario">
 
-    <div class="title">
-      <h1>Auxiliar Administrativo</h1>
-      <p>Test OPE Osakidetza 2026</p>
+      <ion-button class="temario-card"
+        [routerLink]="['/tabs/quiz']"
+        [queryParams]="{ mode: 'general' }"
+        shape="round">
+        <div class="card-inner">
+          <ion-icon name="book-outline" class="card-icon"></ion-icon>
+          Temario General
+        </div>
+      </ion-button>
+
+      <ion-button class="temario-card"
+        [routerLink]="['/tabs/quiz']"
+        [queryParams]="{ mode: 'specific' }"
+        shape="round">
+        <div class="card-inner">
+          <ion-icon name="medkit-outline" class="card-icon"></ion-icon>
+          Temario Específico
+        </div>
+      </ion-button>
+
+      <ion-button class="temario-card"
+        [routerLink]="['/tabs/quiz']"
+        [queryParams]="{ mode: 'combined' }"
+        shape="round">
+        <div class="card-inner">
+          <ion-icon name="layers-outline" class="card-icon"></ion-icon>
+          Temario Conjunto
+        </div>
+      </ion-button>
 
     </div>
-    
-  </div>
-  <!-- TEMARIO CARDS -->
-
-  <div class="temario">
-    <ion-button class="temario-card"
-      [routerLink]="['/tabs/quiz']"
-      [queryParams]="{ mode: 'general' }"
-      shape="round">
-        <h3>Temario General</h3>
-    </ion-button>
-
-
-    <ion-button class="temario-card"
-      [routerLink]="['/tabs/quiz']"
-      [queryParams]="{ mode: 'specific' }"
-      shape="round">
-        <h3>Temario Especifico</h3>
-    </ion-button>
-
-
-    <ion-button class="temario-card"
-      [routerLink]="['/tabs/quiz']"
-      [queryParams]="{ mode: 'combined' }"
-      shape="round">
-        <h3>Temario Conjunto</h3>
-    </ion-button>
 
   </div>
-</div>
 </ion-content>

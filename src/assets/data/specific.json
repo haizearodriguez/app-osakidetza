@@ -859,14 +859,14 @@
   },
   {
     "id": 79,
-    "question": "Corresponde a los miembros de los órganos colegiados de la Administración General del Estado:",
+    "question": "REVISAR_Corresponde a los miembros de los órganos colegiados de la Administración General del Estado:",
     "answers": {
       "A": "Asegurar el cumplimiento de leyes.",
       "B": "Participar en los debates de las sesiones.",
       "C": "Moderar el desarrollo de los debates.",
       "D": "Acordar la convocatoria de las sesiones."
     },
-    "correct": "B"
+    "correct": "D"
   },
   {
     "id": 80,
@@ -1156,7 +1156,7 @@
   },
   {
     "id": 106,
-    "question": "En el compromiso de crecimiento de plantilla estructural para el período 2007- 2009  contemplado  en  el  Decreto  106/2008,  el  mayor  incremento  de  plazas correspondía al grupo profesional de:",
+    "question": "REVISAR_En el compromiso de crecimiento de plantilla estructural para el período 2007- 2009  contemplado  en  el  Decreto  106/2008,  el  mayor  incremento  de  plazas correspondía al grupo profesional de:",
     "answers": {
       "A": "Médicos EAP y Pediatras.",
       "B": "DUE´s Atención Primaria.",
@@ -1339,7 +1339,7 @@
       "C": "De los Tablones de Anuncios de las organizaciones el Ente Público.",
       "D": "Del Portal de Internet del Ente Público."
     },
-    "correct": "A"
+    "correct": "C"
   },
   {
     "id": 123,
@@ -1416,7 +1416,7 @@
       "C": "Promover protocolos de interés general.",
       "D": "Coordinar la ejecución del Plan de Normalización Lingüística."
     },
-    "correct": "B"
+    "correct": "D"
   },
   {
     "id": 130,
@@ -1475,7 +1475,7 @@
   },
   {
     "id": 135,
-    "question": "Según la Ley 39/2015, la Ley tiene por objeto:",
+    "question": "REVISAR_Según la Ley 39/2015, la Ley tiene por objeto:",
     "answers": {
       "A": "Regular exclusivamente el procedimiento administrativo electrónico.",
       "B": "Regular los requisitos de validez y eficacia de los actos administrativos.",
@@ -1486,14 +1486,14 @@
   },
   {
     "id": 136,
-    "question": "Según la Ley 39/2015, el ámbito subjetivo de aplicación comprende:",
+    "question": "REVISAR_Según la Ley 39/2015, el ámbito subjetivo de aplicación comprende:",
     "answers": {
       "A": "Únicamente a la Administración General del Estado.",
       "B": "A las Administraciones Públicas definidas en el artículo 2 de la Ley 40/2015.",
       "C": "A todas las entidades del sector público.",
       "D": "A las Administraciones Públicas y a sus organismos autónomos."
     },
-    "correct": "B"
+    "correct": "C"
   },
   {
     "id": 137,
@@ -1519,14 +1519,14 @@
   },
   {
     "id": 139,
-    "question": "Según  la  Ley  39/2015,  en  relación  con  la  identificación  y  firma  de  los interesados:",
+    "question": "REVISAR_Según  la  Ley  39/2015,  en  relación  con  la  identificación  y  firma  de  los interesados:",
     "answers": {
       "A": "La firma será siempre obligatoria para formular solicitudes.",
       "B": "La identificación podrá realizarse mediante sistemas de firma electrónica.",
       "C": "Solo se exigirá firma cuando sea necesario acreditar la voluntad y consentimiento.",
       "D": "La identificación y la firma son siempre requisitos inseparables."
     },
-    "correct": "C"
+    "correct": "A"
   },
   {
     "id": 140,
@@ -1537,7 +1537,7 @@
       "C": "Podrán designar un representante o señalar un domicilio común.",
       "D": "Cada interesado deberá actuar de forma independiente."
     },
-    "correct": "A"
+    "correct": "C"
   },
   {
     "id": 141,
@@ -1702,7 +1702,7 @@
       "C": "Solo a quienes actúen mediante representante.",
       "D": "Exclusivamente a las personas mayores de edad."
     },
-    "correct": "A"
+    "correct": "B"
   },
   {
     "id": 156,
@@ -1871,14 +1871,14 @@
   },
   {
     "id": 171,
-    "question": "Según  la  Ley  39/2015,  los  recursos  administrativos  se  fundamentan  en  el principio de:",
+    "question": "REVISAR_Según  la  Ley  39/2015,  los  recursos  administrativos  se  fundamentan  en  el principio de:",
     "answers": {
       "A": "Jerarquía normativa.",
       "B": "Legalidad y eficacia administrativa.",
       "C": "Revisión de los actos en vía administrativa.",
       "D": "Tutela judicial efectiva."
     },
-    "correct": "B"
+    "correct": "C"
   },
   {
     "id": 172,

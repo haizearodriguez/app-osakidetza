@@ -1,63 +1,55 @@
 <ion-content class="quiz">
 
   <div class="quiz-wrapper">
-    <!-- contador -->
 
-    <div class="counter">
-      {{index + 1}} / {{totalQuestions}}
+    <!-- Top bar: tag + contador -->
+    <div class="top-bar">
+      <span class="tag">{{ question?.type }}</span>
+      <span class="counter"><span>{{ index + 1 }}</span> / {{ totalQuestions }}</span>
     </div>
 
-  <div class="tag">
-    {{question?.type}}
-  </div>
-    <!-- tarjeta pregunta -->
+    <!-- Barra de progreso -->
+    <div class="progress-track">
+      <div class="progress-fill" [style.width.%]="((index + 1) / totalQuestions) * 100"></div>
+    </div>
 
-    <ion-card class="question-card">
+    <!-- Tarjeta de pregunta -->
+    <div class="question-card">
+      <div class="q-num">Pregunta {{ question?.id }}</div>
+      <div class="q-text">{{ question?.question }}</div>
+    </div>
 
-      <ion-card-header>
+    <!-- Opciones -->
+    <div class="options">
+      <div
+        class="option"
+        *ngFor="let opt of ['A','B','C','D']"
+        [ngClass]="getButtonClass(opt)"
+        (click)="select(opt)">
 
-        <ion-card-title>
-          {{question?.id}} - {{question?.question}}
-        </ion-card-title>
+        <div class="opt-badge">{{ opt }}</div>
+        <div class="opt-text">{{ question?.answers[opt] }}</div>
 
-      </ion-card-header>
+      </div>
+    </div>
 
+    <!-- Explicación (visible tras ver respuesta) -->
+    <div class="explanation" [ngClass]="{ visible: showAnswer || answered }">
+      <div class="exp-label">✓ Respuesta correcta: {{ question?.correct }}</div>
+    </div>
 
-      <ion-card-content>
+    <!-- Acciones -->
+    <div class="actions">
+      <ion-button class="btn-ver" fill="outline" shape="round"
+        [disabled]="answered"
+        (click)="verRespuesta()">
+        Ver respuesta
+      </ion-button>
 
-        <ion-list>
-
-          <ion-item
-            button
-            detail="false"
-            *ngFor="let opt of ['A','B','C','D']"
-            (click)="select(opt)"
-            [ngClass]="getButtonClass(opt)">
-
-            <ion-label>
-
-              <strong>{{opt.toUpperCase()}}</strong>
-              - {{question?.answers[opt]}}
-
-            </ion-label>
-
-          </ion-item>
-
-        </ion-list>
-
-      </ion-card-content>
-
-    </ion-card>
-
-    <ion-button class="next" shape="round" (click)="verRespuesta()">
-      Ver Respuesta
-    </ion-button>
-    <!-- botón siguiente -->
-
-    <!--<ion-button *ngIf="answered" shape="round" class="next" (click)="next()">-->
-    <ion-button shape="round" class="next" (click)="next()">
-      Siguiente
-    </ion-button>
+      <ion-button class="btn-next" shape="round" (click)="next()">
+        Siguiente →
+      </ion-button>
+    </div>
 
   </div>
 

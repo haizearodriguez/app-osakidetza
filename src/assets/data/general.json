@@ -569,7 +569,7 @@
       "C": "Para el cómputo del tiempo de trabajo, se puede tomar en consideración tanto el tiempo en el que se permanece en el centro sanitario como fuera de dicho centro.",
       "D": "Ninguna de las respuestas anteriores es correcta."
     },
-    "correct": "D"
+    "correct": "C"
   },
   {
     "id": 53,
@@ -606,7 +606,7 @@
   },
   {
     "id": 56,
-    "question": "Respecto a la jornada y descansos diarios del personal estatutario de los servicios de salud, es correcta la siguiente afirmación:",
+    "question": "REVISAR_Respecto a la jornada y descansos diarios del personal estatutario de los servicios de salud, es correcta la siguiente afirmación:",
     "answers": {
       "A": "El tiempo de trabajo correspondiente a la jornada ordinaria será siempre de 12 horas ininterrumpidas.",
       "B": "El personal tiene derecho a un período mínimo de descanso ininterrumpido de 8 horas entre el fin de una jornada y el comienzo de la siguiente.",
@@ -617,25 +617,25 @@
   },
   {
     "id": 57,
-    "question": "Según establece la Ley 55/2003, de 16 de diciembre, del Estatuto Marco del personal estatutario de los servicios de salud:",
+    "question": "REVISAR_Según establece la Ley 55/2003, de 16 de diciembre, del Estatuto Marco del personal estatutario de los servicios de salud:",
     "answers": {
       "A": "Resulta incompatible para el personal estatutario de los servicios de salud el ejercicio de las funciones sanitarias con cualquier otro tipo de funciones.",
       "B": "Al personal estatutario de los servicios de salud le resulta aplicable el mismo régimen de incompatibilidades establecido para el personal funcionario.",
       "C": "Atendiendo a lo que establezca la legislación vigente, el personal estatutario de los servicios de salud podrá compatibilizar las funciones sanitarias y docente.",
       "D": "Para el personal licenciado sanitario el complemento específico resulta irrenunciable."
     },
-    "correct": "C"
+    "correct": "B"
   },
   {
     "id": 58,
-    "question": "La Ley 55/2003, de 16 de diciembre, del Estatuto Marco del personal estatutario de los servicios de salud regula el descanso semanal. Señale la respuesta que no es correcta:",
+    "question": "REVISAR_La Ley 55/2003, de 16 de diciembre, del Estatuto Marco del personal estatutario de los servicios de salud regula el descanso semanal. Señale la respuesta que no es correcta:",
     "answers": {
       "A": "El personal tendrá derecho a un período mínimo que siempre será fijo de descanso ininterrumpido con una duración media de 24 horas semanales.",
       "B": "El período de referencia para el cálculo del período de descanso semanal será de tres meses.",
       "C": "En el caso de que no se hubiera disfrutado del tiempo mínimo de descanso semanal en el período de tres meses se producirá una compensación a través del régimen de descansos alternativos.",
       "D": "El período de referencia para el cálculo del período de descanso semanal será de dos meses."
     },
-    "correct": "D"
+    "correct": "B"
   },
   {
     "id": 59,
@@ -771,7 +771,7 @@
   },
   {
     "id": 71,
-    "question": "Osakidetza-Servicio Vasco de Salud se constituye como:",
+    "question": "REVISAR_Osakidetza-Servicio Vasco de Salud se constituye como:",
     "answers": {
       "A": "Ente público con personalidad jurídica propia y adscrito al Departamento de la Administración General competente en materia de salud.",
       "B": "Ente público de derecho privado con personalidad jurídica propia.",
@@ -793,7 +793,7 @@
   },
   {
     "id": 73,
-    "question": "Según establece la Ley 8/1997, de 26 de junio, de Ordenación Sanitaria de Euskadi:",
+    "question": "REVISAR_Según establece la Ley 8/1997, de 26 de junio, de Ordenación Sanitaria de Euskadi:",
     "answers": {
       "A": "El Plan de Salud de Euskadi debe ser aprobado por el Parlamento Vasco.",
       "B": "El Departamento competente en materia de sanidad debe elaborar semestralmente y remitir al Parlamento un informe con la evaluación de los objetivos y determinaciones del Plan de Salud de Euskadi.",
@@ -815,7 +815,7 @@
   },
   {
     "id": 75,
-    "question": "La dirección, planificación y programación del sistema sanitario de Euskadi es competencia:",
+    "question": "REVISAR_La dirección, planificación y programación del sistema sanitario de Euskadi es competencia:",
     "answers": {
       "A": "Del Gobierno Vasco.",
       "B": "Del presidente del ente público Osakidetza-Servicio Vasco de Salud a propuesta de su consejo de administración.",
@@ -1090,7 +1090,7 @@
   },
   {
     "id": 100,
-    "question": "En el ámbito de una organización de servicios sanitarios del ente público Osakidetza-Servicio Vasco de Salud, presidir los Consejos Técnicos de participación profesional y promover su eficaz funcionamiento es una tarea que corresponde a:",
+    "question": "REVISAR_En el ámbito de una organización de servicios sanitarios del ente público Osakidetza-Servicio Vasco de Salud, presidir los Consejos Técnicos de participación profesional y promover su eficaz funcionamiento es una tarea que corresponde a:",
     "answers": {
       "A": "La Dirección General del Ente.",
       "B": "Quien ostente la titularidad de la Dirección-Gerencia del Ente.",
@@ -1277,7 +1277,7 @@
   },
   {
     "id": 117,
-    "question": "Según el Artículo 16 del Decreto 100/2018 de las organizaciones sanitarias integradas del ente público Osakidetza-Servicio Vasco de Salud, ¿con qué periodicidad mínima debe reunirse el Consejo de Dirección de la OSI?",
+    "question": "REVISAR_Según el Artículo 16 del Decreto 100/2018 de las organizaciones sanitarias integradas del ente público Osakidetza-Servicio Vasco de Salud, ¿con qué periodicidad mínima debe reunirse el Consejo de Dirección de la OSI?",
     "answers": {
       "A": "Semanalmente.",
       "B": "Mensualmente.",
@@ -1354,7 +1354,7 @@
   },
   {
     "id": 124,
-    "question": "El Decreto 147/2015, de 21 de julio, por el que se aprueba la Declaración sobre Derechos y Deberes de las personas en el sistema sanitario de Euskadi, distingue bloques de derechos relacionados con los siguientes ámbitos:",
+    "question": "REVISAR_El Decreto 147/2015, de 21 de julio, por el que se aprueba la Declaración sobre Derechos y Deberes de las personas en el sistema sanitario de Euskadi, distingue bloques de derechos relacionados con los siguientes ámbitos:",
     "answers": {
       "A": "Relaciones asistenciales; participación responsable en la gestión de la propia salud; organización y gestión del sistema sanitario de Euskadi; políticas sanitarias específicas; asistencia sanitaria específica vinculada a la infancia y adolescencia; asistencia sanitaria específica referida a la salud sexual y reproductiva; asistencia sanitaria específica referida a las personas mayores; asistencia sanitaria específica referida al final de la vida; participación en la investigación biomédica; obtención de la Tarjeta Individual Sanitaria.",
       "B": "Relaciones asistenciales; participación responsable en la gestión de la propia salud; organización y gestión del sistema sanitario de Euskadi; políticas sanitarias específicas; asistencia sanitaria específica vinculada a la infancia y adolescencia; asistencia sanitaria específica referida a la salud sexual y reproductiva; asistencia sanitaria específica referida a las personas mayores; asistencia sanitaria específica referida al final de la vida; derechos en relación con la docencia del personal sanitario, obtención de la Tarjeta Individual Sanitaria.",
@@ -1530,14 +1530,14 @@
   },
   {
     "id": 140,
-    "question": "Según el Decreto 147/2015, de 21 de julio, por el que se aprueba la Declaración sobre Derechos y Deberes de las personas en el sistema sanitario de Euskadi, a las personas usuarias de los centros, servicios y establecimientos sanitarios citados en los apartados anteriores:",
+    "question": "RREVISAR_Según el Decreto 147/2015, de 21 de julio, por el que se aprueba la Declaración sobre Derechos y Deberes de las personas en el sistema sanitario de Euskadi, a las personas usuarias de los centros, servicios y establecimientos sanitarios citados en los apartados anteriores:",
     "answers": {
       "A": "No les serán exigibles los deberes previstos en los artículos 14 a 17.",
       "B": "Les serán exigibles los deberes previstos en los artículos 14 a 17.",
       "C": "Les serán exigibles los deberes previstos en los artículos 16 y 17 en relación con la participación responsable en la gestión de la propia salud, así como en las relaciones asistenciales.",
       "D": "Les serán exigibles los deberes previstos en los artículos 15, 16 y 17 en relación con las políticas sanitarias, la participación responsable en la gestión de la propia salud, así como en las relaciones asistenciales."
     },
-    "correct": "C"
+    "correct": "B"
   },
   {
     "id": 141,
@@ -1629,7 +1629,7 @@
   },
   {
     "id": 149,
-    "question": "Según dispone la Ley 41/2002, de 14 de noviembre, básica reguladora de la autonomía del paciente y de derechos y obligaciones en materia de información y documentación clínica, se otorgará el consentimiento por representación:",
+    "question": "REVISAR_Según dispone la Ley 41/2002, de 14 de noviembre, básica reguladora de la autonomía del paciente y de derechos y obligaciones en materia de información y documentación clínica, se otorgará el consentimiento por representación:",
     "answers": {
       "A": "Como regla general, cuando la persona paciente sea menor de edad, salvo que no sea capaz intelectual ni emocionalmente de comprender el alcance de la intervención.",
       "B": "Como regla general, cuando la persona paciente sea menor de dieseis años, salvo que no sea capaz intelectual ni emocionalmente de comprender el alcance de la intervención.",
@@ -1970,7 +1970,7 @@
   },
   {
     "id": 180,
-    "question": "Respecto al procedimiento de nombramiento de la Presidencia de la Agencia Española de Protección de Datos, señale la respuesta correcta:",
+    "question": "REVISAR_Respecto al procedimiento de nombramiento de la Presidencia de la Agencia Española de Protección de Datos, señale la respuesta correcta:",
     "answers": {
       "A": "Será nombrada por el Gobierno, a propuesta del Ministerio de Justicia, y estará auxiliada por dos personas adjuntas.",
       "B": "Su nombramiento debe ser ratificado por la Comisión de Justicia del Congreso de los Diputados por mayoría absoluta de sus integrantes en primera votación.",
@@ -2126,10 +2126,10 @@
     "id": 194,
     "question": "El Objetivo General 1 (OG1) del Plan de Salud Euskadi 2030 se enfoca en:",
     "answers": {
-      "A": "Eficiencia, accesibilidad e innovación.",
-      "B": "Calidad, humanización y seguridad.",
-      "C": "Equidad, intersectorialidad y coordinación.",
-      "D": "Investigación, formación y evaluación."
+      "A": "Promover la salud de las mujeres y la salud reproductiva en la edad adulta.",
+      "B": "Lograr que niñas, niños y adolescentes nazcan, crezcan y se desarrollen con todo su potencial de salud.",
+      "C": "Mejorar la salud mental y reducir la morbimortalidad asociada a trastornos mentales.",
+      "D": "La prevención y el control de las enfermedades no transmisibles (ENT)."
     },
     "correct": "B"
   },
@@ -2597,7 +2597,7 @@
   },
   {
     "id": 237,
-    "question": "¿Cuál es el enfoque principal de la Línea de Acción Corporativa L2 de la “Estrategia de Seguridad del Paciente 20-30”?",
+    "question": "REVISAR_¿Cuál es el enfoque principal de la Línea de Acción Corporativa L2 de la “Estrategia de Seguridad del Paciente 20-30”?",
     "answers": {
       "A": "Implicación de pacientes en su seguridad.",
       "B": "Conciliación de la medicación.",
@@ -2696,7 +2696,7 @@
   },
   {
     "id": 246,
-    "question": "Según el diagnóstico del II Plan para la Igualdad de Mujeres y Hombres en Osakidetza, ¿qué porcentaje de mujeres y hombres, respectivamente, componía la plantilla total de Osakidetza en enero de 2025?",
+    "question": "REVISAR_Según el diagnóstico del II Plan para la Igualdad de Mujeres y Hombres en Osakidetza, ¿qué porcentaje de mujeres y hombres, respectivamente, componía la plantilla total de Osakidetza en enero de 2025?",
     "answers": {
       "A": "60% mujeres y 40% hombres",
       "B": "75% mujeres y 25% hombres",
@@ -2762,7 +2762,7 @@
   },
   {
     "id": 252,
-    "question": "¿Cuál es la Meta 5 establecida en el II Plan para la Igualdad de Mujeres y Hombres en Osakidetza (2025-2028)?",
+    "question": "REVISAR_¿Cuál es la Meta 5 establecida en el II Plan para la Igualdad de Mujeres y Hombres en Osakidetza (2025-2028)?",
     "answers": {
       "A": "Reducir la brecha de género existente en las medidas de conciliación para cuidados.",
       "B": "Capacitación en Igualdad, garantizando la formación progresiva del personal.",
@@ -2857,7 +2857,7 @@
       "C": "“Aukeratu zeure hizkuntza/Elige tu lengua” es el lema de la campaña de activación del registro de la lengua preferente de cada paciente que realizará Osakidetza durante el primer año de planificación.",
       "D": "“Aukeratu zeure hizkuntza/Elige tu lengua” es el lema de la campaña de activación del registro de la lengua preferente de cada paciente que realizará Osakidetza durante el tercer año de planificación."
     },
-    "correct": "A"
+    "correct": "C"
   },
   {
     "id": 261,
@@ -3103,7 +3103,7 @@
   },
   {
     "id": 283,
-    "question": "Según la Ley Orgánica 3/2021, de 24 de marzo, de regulación de la eutanasia, ¿qué concepto define la ley como la \"administración directa a la persona paciente de una sustancia por parte del personal sanitario competente\"?",
+    "question": "REVISAR_Según la Ley Orgánica 3/2021, de 24 de marzo, de regulación de la eutanasia, ¿qué concepto define la ley como la \"administración directa a la persona paciente de una sustancia por parte del personal sanitario competente\"?",
     "answers": {
       "A": "Suicidio médicamente asistido.",
       "B": "Sedación paliativa profunda.",
@@ -3169,7 +3169,7 @@
   },
   {
     "id": 289,
-    "question": "Según la Ley Orgánica 3/2021, de 24 de marzo, de regulación de la eutanasia, ¿qué define como \"padecimiento grave, crónico e imposibilitante\"?",
+    "question": "REVISAR_Según la Ley Orgánica 3/2021, de 24 de marzo, de regulación de la eutanasia, ¿qué define como \"padecimiento grave, crónico e imposibilitante\"?",
     "answers": {
       "A": "Aquel que implica la existencia de sufrimiento físico o psíquico constante.",
       "B": "Aquel que genera una limitación que incide directamente sobre la autonomía física y capacidad de expresar su voluntad de la persona paciente.",
